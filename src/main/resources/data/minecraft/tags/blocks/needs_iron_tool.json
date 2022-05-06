@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "jarm:uranium_ore",
+    "jarm:deepslate_uranium_ore",
+    "jarm:uranium_block",
+    "jarm:raw_uranium_block",
+
+    "jarm:lead_ore",
+    "jarm:deepslate_lead_ore",
+    "jarm:lead_block",
+    "jarm:raw_lead_block"
+  ]
+}

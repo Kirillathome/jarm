@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "jarm:uranium_ore",
+    "jarm:deepslate_uranium_ore",
+    "jarm:uranium_block",
+    "jarm:raw_uranium_block",
+    "jarm:uranium_ingot",
+    "jarm:uranium_nugget",
+    "jarm:raw_uranium",
+    "jarm:uranium_plate",
+    "jarm:uranium_apple",
+    "jarm:uranium_axe",
+    "jarm:uranium_pickaxe",
+    "jarm:uranium_sword",
+    "jarm:uranium_shovel",
+    "jarm:uranium_hoe"
+  ]
+}

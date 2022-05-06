@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " =",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "jarm:lead_ingot"
+    },
+    "=": {
+        "item": "jarm:hammer"
+      }
+  },
+  "result": {
+    "item": "jarm:lead_plate"
+  }
+}

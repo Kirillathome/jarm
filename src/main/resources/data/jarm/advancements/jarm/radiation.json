@@ -1,0 +1,33 @@
+{
+  "parent": "jarm:jarm/root",
+  "display": {
+    "icon": {
+      "item": "jarm:raw_uranium"
+    },
+    "title": {
+      "translate": "advancements.jarm.radiation.title"
+    },
+    "description": {
+      "translate": "advancements.jarm.radiation.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "effect": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "jarm:radiation": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "effect"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "jarm:jarm/apple",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{CustomPotionColor:119999}"
+    },
+    "title": {
+      "translate": "advancements.jarm.potion.title"
+    },
+    "description": {
+      "translate": "advancements.jarm.potion.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "potions": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "jarm:radiation_potion"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "potions"
+    ]
+  ]
+}

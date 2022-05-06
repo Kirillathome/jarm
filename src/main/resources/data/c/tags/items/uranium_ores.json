@@ -1,0 +1,7 @@
+{
+  "override": false,
+  "values": [
+    "jarm:uranium_ore",
+    "jarm:deepslate_uranium_ore"
+  ]
+}

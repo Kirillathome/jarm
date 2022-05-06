@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " =",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "jarm:uranium_ingot"
+    },
+    "=": {
+        "item": "jarm:hammer"
+      }
+  },
+  "result": {
+    "item": "jarm:uranium_plate"
+  }
+}

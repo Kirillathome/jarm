@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#=#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "jarm:uranium_nugget"
+    },
+    "=": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "jarm:uranium_apple"
+  }
+}

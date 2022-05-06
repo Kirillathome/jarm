@@ -1,0 +1,35 @@
+{
+  "parent": "jarm:jarm/radiation",
+  "display": {
+    "icon": {
+      "item": "jarm:uranium_apple"
+    },
+    "title": {
+      "translate": "advancements.jarm.apple.title"
+    },
+    "description": {
+      "translate": "advancements.jarm.apple.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eaten": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items":[
+             "jarm:uranium_apple"
+            ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "eaten"
+    ]
+  ]
+}

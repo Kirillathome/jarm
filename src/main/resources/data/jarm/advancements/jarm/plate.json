@@ -1,0 +1,35 @@
+{
+  "parent": "jarm:jarm/hammer",
+  "display": {
+    "icon": {
+      "item": "jarm:uranium_plate"
+    },
+    "title": {
+      "translate": "advancements.jarm.plate.title"
+    },
+    "description": {
+      "translate": "advancements.jarm.plate.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "plates": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "jarm:plates"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "plates"
+    ]
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "override": false,
+  "values": [
+    "jarm:uranium_plate",
+    "jarm:lead_plate",
+    "jarm:iron_plate"
+  ]
+}
