@@ -4,7 +4,9 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.kirill.jarm.JarmMod;
 import net.kirill.jarm.effect.ModEffects;
 import net.kirill.jarm.item.custom.*;
+import net.kirill.jarm.item.custom.armor.ModArmorMaterials;
 import net.kirill.jarm.item.custom.tools.*;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
@@ -33,13 +35,15 @@ public class ModItems {
     public static final Item URANIUM_AXE = registerItem("uranium_axe", new RadioactiveModAxeItem(ModToolMaterials.URANIUM, 5f, -3.1f, new FabricItemSettings().group(ModItemGroup.JARM)));
     public static final Item URANIUM_HOE = registerItem("uranium_hoe", new RadioactiveModHoeItem(ModToolMaterials.URANIUM, 0, -2.5f, new FabricItemSettings().group(ModItemGroup.JARM)));
 
-    public static final Item HAMMER_R = registerItem("hammer_r", new HammerRItem(new FabricItemSettings().group(ModItemGroup.JARM).maxDamage(1)));
-    public static final Item HAMMER = registerItem("hammer", new HammerItem(new FabricItemSettings().group(ModItemGroup.JARM).recipeRemainder(ModItems.HAMMER_R).maxCount(1).maxDamage(32)));
+    public static final Item HAMMER = registerItem("hammer", new HammerItem(new FabricItemSettings().group(ModItemGroup.JARM).maxCount(1).maxDamage(32)));
     public static final Item IRON_PLATE = registerItem("iron_plate", new Item(new FabricItemSettings().group(ModItemGroup.JARM)));
     public static final Item URANIUM_PLATE = registerItem("uranium_plate", new RadioactiveItem(new FabricItemSettings().group(ModItemGroup.JARM)));
     public static final Item LEAD_PLATE = registerItem("lead_plate", new Item(new FabricItemSettings().group(ModItemGroup.JARM)));
 
-
+    public static final Item LEAD_HELMET = registerItem("lead_helmet", new ArmorItem(ModArmorMaterials.LEAD, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroup.JARM)));
+    public static final Item LEAD_CHESTPLATE = registerItem("lead_chestplate", new ArmorItem(ModArmorMaterials.LEAD, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.JARM)));
+    public static final Item LEAD_LEGGINGS = registerItem("lead_leggings", new ArmorItem(ModArmorMaterials.LEAD, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.JARM)));
+    public static final Item LEAD_BOOTS = registerItem("lead_boots", new ArmorItem(ModArmorMaterials.LEAD, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.JARM)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(JarmMod.Mod_ID, name), item);

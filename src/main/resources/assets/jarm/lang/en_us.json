@@ -21,7 +21,6 @@
   "item.jarm.lead_hoe": "Lead Hoe",
   "item.jarm.lead_shovel": "Lead Shovel",
   "item.jarm.hammer": "Hammer",
-  "item.jarm.hammer_r": "Hammer",
   "item.jarm.uranium_sword": "Uranium Sword",
   "item.jarm.uranium_axe": "Uranium Axe",
   "item.jarm.uranium_pickaxe": "Uranium Pickaxe",
@@ -30,6 +29,10 @@
   "item.jarm.uranium_plate": "Uranium Plate",
   "item.jarm.lead_plate": "Lead Plate",
   "item.jarm.iron_plate": "Iron Plate",
+  "item.jarm.lead_helmet": "Lead Helmet",
+  "item.jarm.lead_chestplate": "Lead Chestplate",
+  "item.jarm.lead_leggings": "Lead Leggings",
+  "item.jarm.lead_boots": "Lead Boots",
 
   "effect.jarm.radiation": "Radiation",
 
@@ -43,7 +46,6 @@
   "tooltip.jarm.radioactive2": "I shouldn't touch that.",
   "tooltip.jarm.uranium_apple_item": "It's a VERY bad Idea to eat this.",
   "tooltip.jarm.hammer": "Useful for making Plates",
-  "tooltip.jarm.hammer_r": "Useful for making Plates",
 
   "advancements.jarm.radiation.title": "No Touchy!",
   "advancements.jarm.radiation.description": "Get Radiated by Mining Uranium Ore",

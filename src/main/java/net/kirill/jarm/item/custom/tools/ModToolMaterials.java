@@ -10,8 +10,8 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
 
-    LEAD(MiningLevels.IRON, 512, 10.0f, 2.5f, 18, () -> Ingredient.ofItems(ModItems.LEAD_INGOT)),
-    URANIUM(MiningLevels.IRON, 208, 8.0f, 2.0f, 22, () -> Ingredient.ofItems(ModItems.URANIUM_INGOT));
+    LEAD(MiningLevels.IRON, 512, 10.0f, 2.5f, 7, () -> Ingredient.ofItems(ModItems.LEAD_INGOT)),
+    URANIUM(MiningLevels.IRON, 208, 8.0f, 2.0f, 20, () -> Ingredient.ofItems(ModItems.URANIUM_INGOT));
 
     private final int miningLevel;
     private final int itemDurability;
